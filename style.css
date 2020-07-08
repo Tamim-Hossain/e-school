@@ -11,12 +11,16 @@ body{
 }
 .btn{
     border-radius: 33px;
-    padding: 12px 36px;
+    padding: 7px 25px;
 }
 .card-image-size{
     width: 66px;
     height: 85px;
     margin: 0px auto;
+}
+.top-header-title{
+    font-size: 48px;
+    font-weight: 700;
 }
 .card-modify{
     background: #F8FFFB;
@@ -45,8 +49,12 @@ body{
     border: none;
     background-color: #ffffff;
     box-shadow: 0px 0px 20px lightgray;
-    padding: 15px 10px;
+    padding: 20px 15px;
     border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+.courses-box:hover{
+    box-shadow: 0px 0px 15px rgb(136, 132, 132);
 }
 .icon-image{
     width: 24px;
@@ -68,6 +76,7 @@ footer{
 }
 a{
     color: #ffffff;
+    transition: 0.2s ease;
 }
 a:hover{
     text-decoration: none;
@@ -77,4 +86,7 @@ a:hover{
     text-align: center;
     margin-top: 50px;
     color: #a79f9f;
+}
+.form-control:focus{
+    box-shadow: 0px 0px 1px 2px #28a745;
 }
